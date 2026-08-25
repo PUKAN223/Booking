@@ -37,7 +37,7 @@ The system provides two main experiences:
 
 Users can submit booking information through the public interface, while administrators can review and manage reservations through a dedicated administration panel.
 
-The repository is structured around a Next.js App Router application with separate admin and API areas. ([GitHub][3])
+The repository is structured around a Next.js App Router application with separate admin and API areas.
 
 ---
 
@@ -54,7 +54,7 @@ The public interface provides a booking workflow for users.
 * Display booking status
 * Responsive booking interface
 
-Booking records are stored as structured data under the project's `data` directory. ([GitHub][4])
+Booking records are stored as structured data under the project's `data` directory.
 
 ---
 
@@ -79,7 +79,7 @@ Admin
  +-- System Management
 ```
 
-The repository contains a dedicated `app/admin` route with a substantial admin interface for managing the booking system. ([GitHub][5])
+The repository contains a dedicated `app/admin` route with a substantial admin interface for managing the booking system.
 
 ---
 
@@ -100,13 +100,13 @@ data/
 └── bookings.json
 ```
 
-This file contains the booking records used by the application. ([GitHub][4])
+This file contains the booking records used by the application.
 
 ---
 
 ### <img src="https://api.iconify.design/lucide:shield-check.svg?color=%23ffffff" width="18" height="18" valign="middle"> Validation
 
-The application uses Zod and React Hook Form for structured form handling and validation. ([GitHub][2])
+The application uses Zod and React Hook Form for structured form handling and validation.
 
 ```text
 User Input
@@ -132,7 +132,7 @@ API
 
 The interface is designed to work across different screen sizes.
 
-The project uses Tailwind CSS together with Radix UI primitives and a collection of reusable components to build the interface. ([GitHub][2])
+The project uses Tailwind CSS together with Radix UI primitives and a collection of reusable components to build the interface. 
 
 The UI focuses on:
 
@@ -177,7 +177,6 @@ app/
 └── page.tsx
 ```
 
-([GitHub][3])
 
 ---
 
@@ -200,7 +199,7 @@ app/
 | Embla Carousel  | Carousel interactions    |
 | Next Themes     | Theme management         |
 
-These dependencies are defined in the repository's current `package.json`. ([GitHub][2])
+These dependencies are defined in the repository's current `package.json`.
 
 ---
 
@@ -237,7 +236,7 @@ BookingPCSHSNST-Dom4/
 └── postcss.config.mjs
 ```
 
-This structure is visible directly in the current repository. ([GitHub][1])
+This structure is visible directly in the current repository. 
 
 ---
 
@@ -271,7 +270,7 @@ Admin Dashboard
 Review / Manage
 ```
 
-The public booking interface and admin interface are separated into different application routes. ([GitHub][3])
+The public booking interface and admin interface are separated into different application routes. 
 
 ---
 
@@ -323,7 +322,7 @@ This makes the booking workflow easier to organize and gives administrators a si
 
 ## <img src="https://api.iconify.design/lucide:chart-no-axes-combined.svg?color=%23ffffff" width="20" height="20" valign="middle"> Dashboard
 
-The project includes charting support through Recharts, allowing the application to present booking-related information visually. ([GitHub][2])
+The project includes charting support through Recharts, allowing the application to present booking-related information visually.
 
 Possible dashboard views include:
 
@@ -336,7 +335,7 @@ Possible dashboard views include:
 
 ## <img src="https://api.iconify.design/lucide:bell.svg?color=%23ffffff" width="20" height="20" valign="middle"> Notifications
 
-The application includes Sonner for displaying user-facing notifications and feedback. ([GitHub][2])
+The application includes Sonner for displaying user-facing notifications and feedback. 
 
 Notifications can be used to communicate:
 
@@ -397,7 +396,7 @@ Then open:
 http://localhost:3000
 ```
 
-The repository defines the standard Next.js development, build, lint, and start scripts. ([GitHub][2])
+The repository defines the standard Next.js development, build, lint, and start scripts. 
 
 ---
 
@@ -426,7 +425,7 @@ bun run start
 | `bun run start` | Start production server      |
 | `bun run lint`  | Run Next.js linting          |
 
-These scripts are defined in `package.json`. ([GitHub][2])
+These scripts are defined in `package.json`.
 
 ---
 
@@ -447,7 +446,7 @@ components/
     +-- Feedback
 ```
 
-Radix UI provides the accessible primitives used throughout the interface, while Lucide provides the icon system. ([GitHub][2])
+Radix UI provides the accessible primitives used throughout the interface, while Lucide provides the icon system. 
 
 ---
 
@@ -492,7 +491,7 @@ Potential future improvements:
 
 This repository is a project-specific booking application and is currently under development.
 
-The repository is publicly available and is forked from `pie2309/Booking`. ([GitHub][1])
+The repository is publicly available and is forked from `pie2309/Booking`. 
 
 ---
 
